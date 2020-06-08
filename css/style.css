@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+header{
+  height: 200px;
+  background-color: yellow;
+}
+
+aside{
+  width: 20%;
+  height: 300px;
+  padding: 10px;
+  float: left;
+
+}
+
+.contenitore{
+  height: 100%;
+}
+
+aside .contenitore{
+  background-color: pink;
+  margin-bottom: 10px;
+}
+
+main{
+  width: 60%;
+  height: 600px;
+  padding: 10px;
+  float: left;
+}
+
+main .contenitore{
+  background-color: purple;
+}
+
+footer{
+  height: 100px;
+  padding: 10px;
+  background-color: blue;
+
+}
